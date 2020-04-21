@@ -5,6 +5,7 @@ public class Task_8 {
         int sumEven = 0;
         int sumUneven = 0;
 
+        // 100 в отдельную переменную
         for (int i = 0; i <= 100; i++) {
             if (i % 2 == 0) {
                 sumEven += i;
