@@ -18,7 +18,7 @@ public class Task_3 {
         for (int i = 0; i < group.length; i++) {
             for (int j = i; j < group.length - 1; j++) {
                 if(group[i].equals(group[j + 1])) {
-                    consilienceCount += 1;
+                    consilienceCount += 1; // consilienceCount++;
                 }
             }
         }
