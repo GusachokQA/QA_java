@@ -2,6 +2,7 @@ package hw_4.task_4;
 
 import hw_4.task_1.Man;
 
+// +
 public class Task_4 {
     public static void main(String[] args) {
         Man dima = new Man();

@@ -9,6 +9,7 @@ public class Man {
     private Integer age;
 
     public Man(){
+        // this("Alex", 50);
         name = "Alex";
         age = 50;
     }
