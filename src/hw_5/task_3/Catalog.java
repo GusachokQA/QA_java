@@ -1,6 +1,7 @@
 package hw_5.task_3;
 
 public class Catalog {
+    // поля класса должны быть приватными
     public House[] houses;
 
     public Catalog(){
