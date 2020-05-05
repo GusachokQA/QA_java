@@ -12,10 +12,12 @@ public class Warehouse {
 
     public int next(){
         int next = array[index];
-        index = (index + 1) % array.length;
+        index = (index + 1) % array.length; // я вот совсем не уверен что эта строка будет корректно работать, 
+        // если попробовать дважды распечатать весь массив
         return next;
     }
 
+    // по условию массив нельзя изменять, а ты при помощи геттера предоставил к нему доступ, теперь его можно изменить
     public int[] getArray(){
         return array;
     }
