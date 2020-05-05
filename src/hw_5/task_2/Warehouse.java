@@ -7,7 +7,8 @@ public class Warehouse {
     private int index;
 
     public Warehouse(){
-        array = new int[]{1, 2, 3, 4, 5};
+        // array = {1, 2, 3, 4, 5};
+        array = new int[]{1, 2, 3, 4, 5}; // лучше массив через конструктор передавать
     }
 
     public int next(){
