@@ -10,6 +10,6 @@ public class MainWarehouse {
         System.out.println(warehouse.next());
         System.out.println(warehouse.next());
         System.out.println(warehouse.next());
-        System.out.println(warehouse.toString());
+        System.out.println(warehouse.toString()); // System.out.println(warehouse);
     }
 }
