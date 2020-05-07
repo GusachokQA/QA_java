@@ -10,6 +10,12 @@ public class MainWarehouse {
         System.out.println(warehouse.next());
         System.out.println(warehouse.next());
         System.out.println(warehouse.next());
-        System.out.println(warehouse.toString());
+        /*
+        а что если вместо кучи строк System.out.println(warehouse.next()); сделать вот так:
+        for(int i = 0; i < 10; i++) {
+            System.out.println(warehouse.next());
+        }
+        */
+        System.out.println(warehouse.toString()); // System.out.println(warehouse);
     }
 }

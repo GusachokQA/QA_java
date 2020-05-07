@@ -1,5 +1,7 @@
 package hw_5.task_3;
 
+
+// +
 public abstract class House {
     private int amountOfFloor;
     private int amountOfTenant;

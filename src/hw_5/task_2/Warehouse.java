@@ -7,15 +7,18 @@ public class Warehouse {
     private int index;
 
     public Warehouse(){
-        array = new int[]{1, 2, 3, 4, 5};
+        // array = {1, 2, 3, 4, 5};
+        array = new int[]{1, 2, 3, 4, 5}; // лучше массив через конструктор передавать
     }
 
     public int next(){
         int next = array[index];
-        index = (index + 1) % array.length;
+        index = (index + 1) % array.length; // я вот совсем не уверен что эта строка будет корректно работать, 
+        // если попробовать дважды распечатать весь массив
         return next;
     }
 
+    // по условию массив нельзя изменять, а ты при помощи геттера предоставил к нему доступ, теперь его можно изменить
     public int[] getArray(){
         return array;
     }
