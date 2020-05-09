@@ -1,5 +1,6 @@
 package hw_6.task_1;
 
+// +
 public class Task_1 {
     private final static int[] array = {1, 2, 3};
 
