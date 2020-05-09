@@ -1,5 +1,6 @@
 package hw_6.task_3;
 
+// я бы предложил сделать этот класс интерфейсом
 public abstract class Monkey {
 
     public int sumFruitCount(Tree tree) {
