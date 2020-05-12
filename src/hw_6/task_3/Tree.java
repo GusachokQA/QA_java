@@ -2,6 +2,7 @@ package hw_6.task_3;
 
 import java.util.Scanner;
 
+// выглядит неплохо
 public class Tree {
     private Branch[] branches;
 

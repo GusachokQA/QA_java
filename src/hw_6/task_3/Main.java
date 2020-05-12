@@ -2,6 +2,7 @@ package hw_6.task_3;
 
 import java.util.Scanner;
 
+// в целом неплохо получилось
 public class Main {
     public static void main(String[] args) {
 

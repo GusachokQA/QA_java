@@ -10,7 +10,7 @@ public class Engine {
         else {
             System.out.println("двигатель уже работает");
         }
-    }
+    } // абзац между методами
     public void off(){
         if(engineOn){
             engineOn = false;
