@@ -2,6 +2,7 @@ package hw_7.task_8;
 
 import java.util.Arrays;
 
+// Стоит сделать хранилище, в нем массив Car и у Car сделать поле с двигателем
 public class Task_8 {
     public static void main(String[] args) {
         String[] engines = {"1.4", "1.4", "1.4", "1.8", "1.8", "1.8", "1.8"};
