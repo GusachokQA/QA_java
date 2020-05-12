@@ -16,6 +16,14 @@ public class Task_4 {
         String good = "good";
         String plan = "plan";
 
+        /*
+        String[] words = {alertSearch, ...};
+        for (int i = 0; i < words.length; i++ {
+             countWord = findWord(alertSearch, text);
+             System.out.println("Слово 'alert' содердится с тексте " + countWord + " раз");
+        }
+        */
+        
         countWord = findWord(alert, text);
         System.out.println("alert = " + countWord);
         countWord = findWord(add, text);
