@@ -8,6 +8,7 @@ public class Task_6 {
 
         int count = 0;
 
+        // этот цикл в отдельный метод
         for (int i = 0; i < words.length; i++) {
             if (startsW(words[i])){
                 count++;
@@ -17,6 +18,7 @@ public class Task_6 {
         String[] wordsStartsW = new String[count];
         int index = 0;
 
+        // этот цикл в отдельный метод
         for (int i = 0; i < words.length; i++) {
             if (startsW(words[i])){
                 wordsStartsW[index] = words[i];

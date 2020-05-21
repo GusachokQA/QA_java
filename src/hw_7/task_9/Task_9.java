@@ -6,6 +6,7 @@ public class Task_9 {
 
         int minSymbolCount = 5;
 
+        // эту логику в отдельный метод
         for (int i = 0; i < words.length; i++) {
             if(words[i].length() > minSymbolCount){
                 System.out.println(words[i]);
